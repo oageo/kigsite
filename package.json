@@ -10,14 +10,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^3.2.0",
+    "@astrojs/sitemap": "^3.0.1",
+    "astro": "^3.2.3",
     "astro-purgecss": "^3.2.1",
     "bulma": "^0.9.4",
     "purgecss": "^5.0.0",
     "sharp": "^0.32.6"
   },
   "devDependencies": {
-    "sass": "^1.68.0",
+    "sass": "^1.69.0",
     "sass-loader": "^13.3.2"
   }
 }
