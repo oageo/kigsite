@@ -1,0 +1,35 @@
+---
+import { Image } from "astro:assets";
+import Kighead4k from '../images/kighead4k.jpg';
+---
+
+<head>
+    
+</head>
+
+<section class="section content">
+    <div class="columns vcard">
+        <div class="column is-4">
+            <Image src={ Kighead4k } class="photo" alt="" />
+        </div>
+        <div class="column is-8">
+            <ul id="list">
+                <li class="fn title">
+                    Osumi Akari
+                </li>
+                <li>
+                    Site: <a href="https://www.osumiakari.jp" class="url" rel="me">https://www.osumiakari.jp</a>
+                </li>
+                <li>
+                    ActivityPub: <a href="https://c.osumiakari.jp/@kig" class="url" rel="me">@kig@c.osumiakari.jp</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<style>
+    #list {
+        list-style-type: none;
+    }
+</style>
