@@ -10,8 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.0.2",
-    "astro": "^3.4.0",
+    "@astrojs/sitemap": "^3.0.3",
+    "astro": "^3.4.4",
     "astro-purgecss": "^3.2.1",
     "bulma": "^0.9.4",
     "purgecss": "^5.0.0",
