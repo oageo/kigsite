@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.0.3",
-    "astro": "^3.4.4",
+    "astro": "^3.5.5",
     "astro-purgecss": "^3.2.1",
     "bulma": "^0.9.4",
     "purgecss": "^5.0.0",
