@@ -15,7 +15,7 @@
     "astro-purgecss": "^5.3.0",
     "bulma": "^1.0.4",
     "purgecss": "^5.0.0",
-    "sharp": "^0.32.6"
+    "sharp": "^0.34.3"
   },
   "devDependencies": {
     "sass": "^1.89.2",
