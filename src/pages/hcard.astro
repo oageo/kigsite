@@ -1,15 +1,16 @@
 ---
-import Hcardlayout from "../layouts/Hcardlayout.astro";
+import Layout from "../layouts/Layout.astro";
 import Hcardaskig from "../components/Hcardaskig.astro";
 import Oafooter from "../components/Oafooter.astro";
 ---
 
-<Hcardlayout title="OAaaK hCard" description="セマンティックな着ぐるみさんを目指す">
+<Layout title="OAaaK hCard" description="セマンティックな着ぐるみさんを目指す">
+	<link slot="head" rel="profile" href="http://microformats.org/profile/hcard">
 	<div>
 		<Hcardaskig />
         <Oafooter />
 	</div>
-</Hcardlayout>
+</Layout>
 
 <style>
 
